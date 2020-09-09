@@ -1,0 +1,581 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.delete-product .modal-content {
+    border-radius: unset;
+}
+
+button.btn.btn-outline-primary.trash.float-right.minus {
+}
+
+#content-cart #left-content .checkbox-wrap .total {
+    margin-left: 10px;
+}
+
+#content-cart #left-content #products .one-product {
+    padding: 15px 0px;
+}
+
+#content-cart #left-content #products .one-product .cart-item-price .current-price {
+    font-size: 18px;
+    color: #5a88ca;
+    line-height: 15px;
+    padding: 5px 0px;
+}
+
+#content-cart #left-content #products .one-product .cart-item-price .origin-price {
+    text-decoration: line-through;
+    color: #888;
+    padding: 5px 0px;
+}
+
+#content-cart #left-content #products .one-product .cart-item-price {
+    font-size: 16px;
+    color: #333;
+    display: inline-block;
+}
+
+#content-cart #left-content #products .one-product .quantity-trash .trash-item {
+    font-size: 16px;
+    /*! margin-bottom: 20px; */
+    /*! margin-top: 20px; */
+}
+
+#content-cart #left-content #products .one-product .quantity-trash .quantity {
+    width: 38px;
+    height: 38px;
+}
+
+#content-cart #left-content #products .one-product .cart-item .content .title {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#content-cart #left-content #products .one-product .cart-item .content {
+    display: inline-block;
+}
+
+#content-cart #left-content #products .one-product .cart-item .content .describe {
+    font-size: 12px;
+}
+
+#content-cart #left-content #products .one-product .cart-item .content .color span {
+    padding: 2px;
+}
+
+#content-cart #left-content #products .one-product .cart-item .img-wrap img {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+#content-cart #left-content #products .one-product .cart-item .img-wrap {
+    display: inline-block;
+}
+
+#content-cart #left-content #products .one-product .cart-item a {
+    color: #333;
+}
+
+#content-cart #left-content #products {
+    background: white;
+    margin-bottom: 15px;
+}
+
+#content-cart #left-content #products .one-product .cart-item .checkbox-wrap {
+    font-size: 12px;
+    display: inline-block;
+}
+
+#content-cart #left-content #header-list .checkbox-wrap {
+    float: left;
+}
+
+/* The container */
+#content-cart #left-content .checkbox-wrap .label-wrap {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    padding: 12px 0px 12px 12px;
+    margin-bottom: 0px;
+}
+
+#content-cart #left-content #header-list {
+    background: white;
+}
+
+/* Hide the browser's default checkbox */
+#content-cart #left-content .checkbox-wrap .label-wrap input.check-box {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+#content-cart #left-content .checkbox-wrap .checkmark {
+    display: inline-block;
+    border-radius: unset;
+    color: #5a88ca;
+    border: 1px solid #5a88ca;
+}
+
+#content-cart #left-content .checkbox-wrap .checkmark i {
+    display: inline-block;
+    opacity: 0;
+    padding: 3px;
+}
+
+
+/* On mouse-over, add a grey background color */
+#content-cart #left-content .checkbox-wrap .label-wrap:hover input.check-box ~ .checkmark {
+    background: #5a88ca;
+    color: white;
+    border: 1px solid #5a88ca;
+    transition: 0.5s;
+}
+
+/* When the checkbox is checked, add a blue background */
+#content-cart #left-content .checkbox-wrap .label-wrap input.check-box:checked ~ .checkmark {
+    background: #5a88ca;
+}
+
+#content-cart #left-content .checkbox-wrap .label-wrap input.check-box:checked ~ .checkmark i {
+    color: white;
+    opacity: 1;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+#content-cart #left-content .checkbox-wrap .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+#content-cart #left-content .checkbox-wrap .label-wrap input.check-box:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+#content-cart #left-content .checkbox-wrap .label-wrap .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#content-cart #left-content #header-list {
+    font-size: 12px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+#content-cart #left-content #header-list .list-header-operations button {
+    font-size: 14px !important;
+    margin: 6px 12px;
+}
+
+#content-cart #left-content #products .one-product .quantity-trash .plus {
+}
+
+#content-cart #left-content #products .one-product .quantity-trash .minus {
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#content-cart #right-content .total-price-products .total-price {
+    color: black;
+}
+
+.delete-product .modal-content button.btn.btn-secondary {
+    border-radius: unset;
+}
+
+#content-cart #right-content #sumary-order .sum-price .checkout-order-total-row .checkout-order-total-fee {
+    float: right;
+    text-align: right;
+}
+
+#content-cart #right-content #sumary-order .sum-price .checkout-order-total-row .checkout-order-total-fee small {
+    font-size: 12px;
+    display: block;
+    color: #333;
+}
+
+#content-cart #right-content #sumary-order .sum-price .checkout-order-total-row {
+    overflow: hidden;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #5a88ca;
+}
+
+#content-cart #right-content #sumary-order .sum-price .checkout-order-total-row .checkout-order-total-title {
+    display: inline-block;
+    font-size: 14px;
+    color: #333;
+}
+
+#content-cart #right-content #sumary-order .sum-price .checkout-order-total-row .checkout-order-total-fee small {
+}
+
+#content-cart #right-content #sumary-order .delivery-fee {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+#content-cart #right-content #sumary-order .discount {
+    margin-bottom: 15px;
+}
+
+#content-cart #right-content #sumary-order .discount input {
+    display: inline-block;
+    height: 46px;
+    border-radius: unset;
+}
+
+#content-cart #right-content #sumary-order .discount input:focus {
+    outline: unset;
+    border: 1px solid #5a88ca;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+}
+
+#content-cart #right-content #sumary-order .discount button {
+    text-transform: uppercase;
+    float: right;
+    padding: 10px;
+}
+
+#content-cart #right-content #sumary-order .delivery-fee .delivery-label {
+    display: inline-block;
+}
+
+#content-cart #right-content .fee {
+    color: black;
+}
+
+#content-cart #right-content .sum-price a {
+    width: 100%;
+    background: #5a88ca;
+    color: white;
+    text-transform: uppercase;
+}
+
+#content-cart #right-content #sumary-order .sum-price button:hover {
+}
+
+#content-cart #right-content .title {
+    font-size: 18px;
+    color: #333;
+    margin: 15px 0px;
+}
+
+#content-cart #right-content .total-price-products {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+#content-cart #right-content .total-price-products .total-price float-right {
+}
+
+#content-cart #right-content .total-price-products .total-products {
+    display: inline-block;
+}
+
+#content-cart #right-content #sumary-order {
+    font-size: 14px;
+    color: #888;
+}
+
+#content-cart #right-content #address .user-address {
+    padding-left: 10px;
+}
+
+#content-cart #right-content {
+    background: white;
+    padding: 15px;
+    font-size: 12px;
+    margin-bottom: 15px;
+    height: max-content;
+}
+
+#content-cart #right-content #address {
+    color: #888;
+    font-size: 16px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #efefef;
+}
+
+#content-cart #right-content #address .title {
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.title1 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+#content-cart #right-content #address .user-address span {
+    color: #333;
+    font-size: 12px;
+    padding: 10px 0px;
+    display: inline-block;
+}
+
+#content-cart #right-content #address .user-address i {
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+button.btn.btn-outline-primary.trash.float-right.minus {
+}
+
+#content-cart #left-content .checkbox-wrap .total {
+    margin-left: 10px;
+}
+
+#content-cart #left-content #products .one-product {
+    padding: 15px 0px;
+}
+
+#content-cart #left-content #products .one-product .cart-item {
+    margin-right: -15px;
+}
+
+#content-cart #left-content #products .one-product .cart-item-price .current-price {
+    font-size: 18px;
+    color: #5a88ca;
+    line-height: 15px;
+    padding: 5px 0px;
+}
+
+#content-cart #left-content #products .one-product .cart-item-price .origin-price {
+    text-decoration: line-through;
+    color: #888;
+    padding: 5px 0px;
+}
+
+#content-cart #left-content #products .one-product .cart-item-price {
+    font-size: 16px;
+    color: #333;
+    display: inline-block;
+    padding: 0px;
+    margin-right: 15px;
+}
+
+#content-cart #left-content #products .one-product .quantity-trash {
+    font-size: 14px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#content-cart #left-content #products .one-product .quantity-trash .trash-item {
+    margin: 0px 12px 0px 24px;
+    font-size: 14px;
+    /*! margin-bottom: 20px; */
+    /*! margin-top: 20px; */
+}
+
+#content-cart #left-content #products .one-product .quantity-trash .quantity {
+    /*! width: 35px; */
+    /*! height: 35px; */
+    margin: 0px;
+    padding: 0px;
+    /*! margin-bottom: 20px; */
+    /*! margin-top: 20px; */
+    /*! position: absolute; */
+    /*! left: 56px; */
+    border-radius: unset;
+    border: 0px solid #5a88ca;
+    text-align: center;
+    margin: 0px 2px;
+}
+
+#content-cart #left-content #products .one-product .quantity-trash .quantity:hover {
+    border: 1px solid #5a88ca;
+}
+
+#content-cart #left-content #products .one-product .quantity-trash .quantity:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .5);
+    outline: unset;
+    /* border: unset; */
+}
+
+#content-cart #left-content #products .one-product .cart-item .content .title {
+    font-weight: 600;
+    font-size: 14px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#content-cart #left-content #products .one-product .cart-item .content {
+    /* display: inline-block; */
+    /* max-width: 60%; */
+    vertical-align: middle;
+}
+
+#content-cart #left-content #products .one-product .cart-item .content .describe {
+    font-size: 12px;
+}
+
+#content-cart #left-content #products .one-product .cart-item .img-wrap img {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+#content-cart #left-content #products .one-product .cart-item .img-wrap {
+    display: inline-block;
+}
+
+#content-cart #left-content #products .one-product .cart-item a {
+    color: #333;
+}
+
+#content-cart #left-content #products {
+    background: white;
+    margin-bottom: 15px;
+}
+
+#content-cart #left-content #products .one-product .cart-item .checkbox-wrap {
+    font-size: 12px;
+    display: inline-block;
+}
+
+#content-cart #left-content #header-list .checkbox-wrap {
+    float: left;
+}
+
+/* The container */
+#content-cart #left-content .checkbox-wrap .label-wrap {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    padding: 12px 0px 12px 12px;
+    margin-bottom: 0px;
+}
+
+#content-cart #left-content #header-list {
+    background: white;
+}
+
+/* Hide the browser's default checkbox */
+#content-cart #left-content .checkbox-wrap .label-wrap input.check-box {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+#content-cart #left-content .checkbox-wrap .checkmark {
+    display: inline-block;
+    border-radius: unset;
+    color: #5a88ca;
+    border: 1px solid #5a88ca;
+}
+
+#content-cart #left-content .checkbox-wrap .checkmark i {
+    display: inline-block;
+    opacity: 0;
+    padding: 3px;
+}
+
+
+/* On mouse-over, add a grey background color */
+#content-cart #left-content .checkbox-wrap .label-wrap:hover input.check-box ~ .checkmark {
+    background: #5a88ca;
+    color: white;
+    border: 1px solid #5a88ca;
+    transition: 0.5s;
+}
+
+/* When the checkbox is checked, add a blue background */
+#content-cart #left-content .checkbox-wrap .label-wrap input.check-box:checked ~ .checkmark {
+    background: #5a88ca;
+}
+
+#content-cart #left-content .checkbox-wrap .label-wrap input.check-box:checked ~ .checkmark i {
+    color: white;
+    opacity: 1;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+#content-cart #left-content .checkbox-wrap .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+#content-cart #left-content .checkbox-wrap .label-wrap input.check-box:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+#content-cart #left-content .checkbox-wrap .label-wrap .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#content-cart #left-content #header-list {
+    font-size: 12px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+#content-cart #left-content #header-list .list-header-operations button {
+    font-size: 14px !important;
+    margin: 6px 12px;
+}
+
+#content-cart #left-content #products .one-product .quantity-trash .plus {
+    font-size: 14px;
+    z-index: 100;
+}
+
+#content-cart #left-content #products .one-product .quantity-trash .minus { /*! margin-bottom: 20px; *//*! margin-top: 20px; */
+    font-size: 14px; /*! margin-right: 37px; */
+    height: 38px; /*! line-height: 38px; *//*! vertical-align: middle; */
+    z-index: 100;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+#content-cart #left-content #products .one-product .quantity-trash i {
+    display: inline-block;
+    padding: 5px 0px;
+}
+
+#left-content {
+    margin-left: -15px;
+}
